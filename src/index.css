@@ -6,9 +6,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+a.tile  header{
+  margin:0 auto;
+  text-align: center;
+  padding-top:100px;
+  color:#d7dae0;
+  font-size: 46px;
+}
+a.tile {
+  text-decoration: none;
+  color: #d7dae0;
+  cursor: pointer;
+}
+p{
+  color:#d7dae0;
+  margin-top:10px;
+}
+
+
+

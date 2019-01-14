@@ -1,0 +1,25 @@
+p{
+	color:#d7dae0;
+}
+.test{
+	border:solid white;
+	max-width: 40vw;
+	border-radius: 10%;
+	display:inline-table;
+	margin-left: 1%;
+	margin-right: 1%;
+
+}
+.centerCard{
+	margin-left: 7.5%;
+	padding-bottom: 3.75%;
+	padding-top: 3.75%;
+}
+.centerButton{
+	margin-left: 45%;
+	border-radius: 20%;
+	margin-bottom: 5%;
+}
+.stretch{
+	height:70vh;
+}
