@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/professional_portfolio/precache-manifest.2f89b7e503a45a4df557524a85a7eec7.js"
+  "ericporter.io/precache-manifest.be4e9c185e3bf20c33fbdc3bb3d2189a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/professional_portfolio/index.html", {
+workbox.routing.registerNavigationRoute("ericporter.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
