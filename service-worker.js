@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "ericporter.io/precache-manifest.be4e9c185e3bf20c33fbdc3bb3d2189a.js"
+  "tophthewise.github.io/precache-manifest.01d9e799864e53d436f7abf355340b05.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("ericporter.io/index.html", {
+workbox.routing.registerNavigationRoute("tophthewise.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
