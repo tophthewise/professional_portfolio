@@ -22,21 +22,7 @@ class Home extends Component {
 
         <Designer title="Designer" history={this.props.history}/>
         <Developer title="Developer" history={this.props.history}/>
-        <Musician title="Musician" history={this.props.history} onClick={this.enableMusicPage}/ >
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        
 
 
 

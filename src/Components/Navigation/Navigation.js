@@ -13,9 +13,8 @@ class Navigation extends Component {
   render() {
     const sections = [
       {to:'/',label:'Home'},
-      {to:'/Music' ,label:'Music'},
       {to:'/About', label:'About'},
-      {to:'/Designer',label:'Designer'}
+      {to:'/Designer',label:'Designs'}
     ];
     const navlinks = sections.map(section => {
       return (
@@ -36,7 +35,7 @@ class Navigation extends Component {
             {navlinks}
         </ul>
             </nav>
-                <h3 className="subheader"> Developer,Designer,Musician</h3>
+                <h3 className="subheader"> Developer & Designer</h3>
 
       </div>
       

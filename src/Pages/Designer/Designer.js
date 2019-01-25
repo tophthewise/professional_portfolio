@@ -22,7 +22,6 @@ return(
 <Fragment>
 {/*<p> Hi im paul!</p>*/}
 <Projects/>
-<Papers/>
 </Fragment>
 	);
 

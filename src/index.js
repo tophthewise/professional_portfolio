@@ -9,9 +9,10 @@ import Home from './Pages/Home/Home';
 import Musician from './Pages/Musician/Musician';
 import About from './Pages/About/About';
 import Designer from './Pages/Designer/Designer';
-import Anima from './Pages/Anima/Anima';
 import EscapeKey from './Pages/EscapeKey/EscapeKey';
 import CheckinIn from './Pages/CheckinIn/CheckinIn';
+import Footer from './Components/Footer/Footer';
+
 
 
 
@@ -30,13 +31,14 @@ render((
 						  		<Route path='/Music' component={Musician}/>
 						  		<Route path='/About' component={About}/>
 						  		<Route path='/Designer' component={Designer}/>
-						  		<Route path='/Anima' component={Anima}/>
 						  		<Route path='/EscapeKey' component={EscapeKey}/>
 						  		<Route path='/CheckinIn' component={CheckinIn}/>
 
 
 				</Switch>
+				<Footer/>
 			</Fragment>
+
   		</BrowserRouter>
 ), document.getElementById('root'));
 
