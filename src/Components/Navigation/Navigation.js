@@ -11,6 +11,7 @@ class Navigation extends Component {
 
 
   render() {
+    
     const sections = [
       {to:'/',label:'Home'},
       {to:'/About', label:'About'},

@@ -28,7 +28,7 @@ return(
 
 <p> 
 	<a href = "https://github.com/tophthewise"> 
-		<FontAwesomeIcon icon={['fab','github']} size="4x"/>
+		{" Code "}<FontAwesomeIcon icon={['fab','github']} />
 	</a> 
 </p>
 </header>

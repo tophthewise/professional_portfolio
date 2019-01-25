@@ -26,7 +26,7 @@ return(
 <header  style={myStyle}> 
 <h1 > {this.props.title}</h1>
 <p > <Link to="/Designer" style={subhead}>
-{" My Designs " }
+{" Designs " }
 <FontAwesomeIcon icon={['fas','drafting-compass']} />
 </Link> </p>
 </header>
