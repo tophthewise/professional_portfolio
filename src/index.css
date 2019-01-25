@@ -30,6 +30,16 @@ p{
   color:#d7dae0;
   margin-top:10px;
 }
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 30px;
+}
+header > h1{
+font-size: 90px;
+margin-bottom: 5px;
+}
 
 
 

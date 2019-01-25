@@ -21,8 +21,8 @@
 	render(){
 
 	const ImgStyle = {height:'40vh', width:'100%', 'border-radius':'17%','padding-top':'5vh'};
-	const cardStyle = {'height':'500px'};
-
+	const cardStyle = {'height':'550px' ,width:'40%'};
+	const visiText = {'font-size':'20px'};
 const spacing={"paddingBottom":'10%'};
 
 
@@ -41,7 +41,7 @@ const spacing={"paddingBottom":'10%'};
 					        <CardImg top width="100%" style={ImgStyle} src={CIPic} alt="Card image cap" />
 					        <CardBody className="text-center">
 					          <CardTitle tag="h2" className="center"><b>Checkin' In</b></CardTitle>
-					          <CardText>"Checkin' In" is a design to help people with Alcohol Use Disorder (AUD) with their recovery process allowing users to create a community and communicate anonymously with others struggling with AUD, and track progress of their sobreity.</CardText>
+					          <CardText style={visiText}>"Checkin' In" is a design to help people with Alcohol Use Disorder (AUD) with their recovery process allowing users to create a community and communicate anonymously with others struggling with AUD, and track progress of their sobreity.</CardText>
 					          <Link to = '/CheckinIn' ><Button className="centerButton">See More</Button></Link>
 					        </CardBody>
 					      </Card>
@@ -51,7 +51,7 @@ const spacing={"paddingBottom":'10%'};
 					        <CardImg top style={ImgStyle} width="100%" src={EKPic} alt="Card image cap" />
 					        <CardBody className="text-center">
 					          <CardTitle tag="h2" className="center"><b>Escape Key</b></CardTitle>
-					          <CardText>Escape Key is a design for women who don't feel safe on college campuses to have a way out of dangerous situations through: escape routes, 911 quick dialing, or send a distress message.</CardText>
+					          <CardText style={visiText}>Escape Key is a design for women who don't feel safe on college campuses to have a way out of dangerous situations through: escape routes, 911 quick dialing, or send a distress message.</CardText>
 					          <Link to = '/EscapeKey' ><Button className="centerButton">See More</Button></Link>
 					        </CardBody>
 					      </Card>

@@ -1,5 +1,5 @@
 .logo{
-	font-size: 30px;
+	font-size: 64px;
 	color:#00a9ea;
 ;
 }
@@ -25,6 +25,8 @@ nav ul li{
 nav ul li a{
 text-decoration: none;
 color:#ff7260;
+font-size: 30px;
+padding-left: 7%;
 }
 .subheader{
 	background-color: #282c34;
@@ -32,6 +34,7 @@ color:#ff7260;
 	align-items: left;
 	Margin:0000;
 	padding-left: 10vw;
+	font-size: 25px;
 
 
 }
