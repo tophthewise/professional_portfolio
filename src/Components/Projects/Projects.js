@@ -5,7 +5,6 @@
 	import { Card, CardImg, CardText, CardBody,
 	  CardTitle, CardSubtitle, Button } from 'reactstrap';
 	import {Link} from 'react-router-dom';
-	import Anima from '../../Pages/Anima/Anima';
 	import CIPic from '../../img/CheckinIn.png';
 	import EKPic from '../../img/EscapeKey3.png';
 
@@ -73,10 +72,9 @@
 					<Card col-xs="3">
 					        <CardImg top style={ImgStyle}width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
 					        <CardBody>
-					          <CardTitle tag="h2" className="center"> <b>? </b></CardTitle>
-					          <CardSubtitle className="center">Card subtitle</CardSubtitle>
-					          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-					          <Link to = '#' ><Button className="centerButton">See More</Button></Link>
+					          <CardTitle tag="h2" className="center"> <b>Still Lyfe</b></CardTitle>
+					          <CardSubtitle className="center">Coming Soon</CardSubtitle>
+					          
 					        </CardBody>
 					      </Card>
 				</div>
