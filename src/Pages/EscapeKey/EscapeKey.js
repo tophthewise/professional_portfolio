@@ -17,15 +17,16 @@ render(){
 
 const headerstyle={'padding-left':"2%"};
 const textStyle ={'padding-left':'2%'};
-
+const imgStyle ={'height':'100%','width':'40%', 'border-radius':'0px','border':'white solid','padding-bottom':'0px'}
+const title = {'padding-bottom':'1px'}
 
 return(
 <Fragment>
-<h1 className="center">
+	<h1 className="center" style={title}>
 		{"Escape Key"}
 	</h1>
 
-	<img className="center" src={poster} />
+	<img className="center" style = {imgStyle} src={poster} />
 	<h2 style={headerstyle}>
 		Design
 	</h2>

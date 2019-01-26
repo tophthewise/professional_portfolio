@@ -17,8 +17,9 @@ class aboutNav extends Component {
 
 
   render() {
-    const bigText={'font-size':'20px'};
+    const bigText={'font-size':'20px','padding-left':'0'};
     const bigTitle={'font-size':'40px'};
+    const spacing={'padding-left':'5px'};
     const profiles = [
       {to:'https://www.linkedin.com/in/eric-porter-687aa6122/',label:'LinkedIn',icon:'linkedin',icon_pack:'fab'},
       {to:'mailto:eric.porter820@gmail.com' ,label:"Contact",icon:'envelope',icon_pack:'fas'},
@@ -28,11 +29,12 @@ class aboutNav extends Component {
               const icon = [profile.icon_pack, profile.icon];
 
       return (
-                <li key ={profile.label}>
+                <li key ={profile.label} style={spacing}>
                   <a href={profile.to} style={bigText}>
                       {profile.label+" "}  
-                      <FontAwesomeIcon icon ={icon} size="lg"/>
+                      <FontAwesomeIcon icon={icon} size="lg"/>
                   </a>
+
                 </li>
         )
 
@@ -45,10 +47,12 @@ class aboutNav extends Component {
         <nav>
 
 	        <ul className = "center">
-	        <li><a href={Resume} download="Eric_Porter.pdf" style={bigText} >
-          {"Resume "}
-          <FontAwesomeIcon icon={['fas','file-download']}size="lg"/>
-          </a></li>
+	        <li>
+            <a href={Resume}  download="Eric_Porter.pdf" style={bigText}>
+            Resume <FontAwesomeIcon icon={['fas','file-download']}size="lg"/>
+            
+            </a>
+          </li>
 	            {profile_links}
 	        </ul>
 
