@@ -1,7 +1,6 @@
 import React,{Fragment} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import * as serviceWorker from './serviceWorker'; 
 import { BrowserRouter, Switch, Route} from 'react-router-dom'
 import { render } from 'react-dom'
 // pages 
@@ -48,4 +47,3 @@ render((
 // ReactDom.render(<App />, document.getElementById('root'));
 //Render all compnents in app
 
-serviceWorker.unregister();
