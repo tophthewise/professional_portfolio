@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/Music_Cover.617c614d.jpg"
   },
   {
-    "revision": "a59461b53aca7b07a937",
+    "revision": "a2e5211d9fcac34a82dc",
     "url": "/static/css/main.64ddbf7c.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/Design_drop3.0f2a8375.jpg"
   },
   {
-    "revision": "a59461b53aca7b07a937",
-    "url": "/static/js/main.a59461b5.chunk.js"
+    "revision": "a2e5211d9fcac34a82dc",
+    "url": "/static/js/main.a2e5211d.chunk.js"
   },
   {
     "revision": "b390fcebcbe415f39f9dc36cb339a667",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/CheckinInPoster.528654ce.png"
   },
   {
-    "revision": "36ee32d328e5c9a61754edbf5f7e223c",
+    "revision": "b22163020371803e3e2b44ec5a96afd4",
     "url": "/index.html"
   }
 ];
