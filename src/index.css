@@ -36,6 +36,8 @@ h1{
 h2{
   font-size: 30px;
     color:#d7dae0;
+    background-color:#282c34; 
+
 
 }
 header > h1{
@@ -43,5 +45,9 @@ font-size: 90px;
 margin-bottom: 5px;
 }
 
+a:hover{
+color: #ff8374;
+text-decoration: none;
+}
 
 

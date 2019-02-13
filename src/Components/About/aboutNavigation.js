@@ -49,7 +49,7 @@ class aboutNav extends Component {
 	        <ul className = "center">
 	        <li>
             <a href={Resume}  download="Eric_Porter.pdf" style={bigText}>
-            Resume <FontAwesomeIcon icon={['fas','file-download']}size="lg"/>
+            Resume <FontAwesomeIcon icon={['fas','file-download']}size="lg" />
             
             </a>
           </li>

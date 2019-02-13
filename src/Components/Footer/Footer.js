@@ -15,7 +15,7 @@ class Footer extends Component{
 
 
 render(){
-const spacing={"padding-top":'5%'};
+const spacing={"padding-top":'5%','background-color':'#282c34','width':'100vw'};
 const date= new Date();
 const year = date.getFullYear();
 return(

@@ -8,18 +8,40 @@ p{
 	display:inline-table;
 	margin-left: 1%;
 	margin-right: 1%;
+	height:600px; 
+	width:50%;
 
 }
 .centerCard{
 	margin-left: 7.5%;
 	padding-bottom: 3.75%;
 	padding-top: 3.75%;
+
 }
 .centerButton{
-	margin-left: 45%;
+	margin-left: 30vw;
 	border-radius: 20%;
 	margin-bottom: 5%;
+	margin:0 auto;
 }
 .stretch{
 	height:70vh;
+}
+.card{
+	background-color: #282c34;
+	border-radius: 20%;
+	height: 650px;
+}
+@media screen and (max-width: 728px) {
+
+	.test{
+	border:solid white;
+	border-radius: 10%;
+	display:inline-table;
+	margin-left: 1%;
+	margin-right: 1%;
+	height:600px; 
+	width:50%;
+
+}
 }

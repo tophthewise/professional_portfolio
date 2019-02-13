@@ -2,7 +2,7 @@
 	font-size: 64px;
 	color:#00a9ea;
 	margin-top: 3px;
-	margin-bottom: 3px;
+	margin-bottom: 0px;
 }
 nav{
 	display:flex;
@@ -15,6 +15,9 @@ nav{
 
 }
 
+.navdrops{
+	color:#ff7260;
+}
 nav ul{
 	list-style: none;
 

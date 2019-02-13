@@ -1,8 +1,11 @@
 import React,{Fragment} from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import { BrowserRouter, Switch, Route} from 'react-router-dom'
-import { render } from 'react-dom'
+import { render } from 'react-dom';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap-css-only/css/bootstrap.min.css";
+import './index.css';
+
 // pages 
 import Home from './Pages/Home/Home';
 import Musician from './Pages/Musician/Musician';
