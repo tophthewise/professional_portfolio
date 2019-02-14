@@ -111,7 +111,7 @@ const mobile = {'border':'solid white',
 					<Card col-xs="5">
 					        <CardImg top style={ImgStyle}width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
 					        <CardBody>
-					          <CardTitle tag="h2" className="center"> <b>Still Lyfe</b></CardTitle>
+					          <CardTitle tag="h2" className="center"> <b>Styll Life</b></CardTitle>
 					          <CardSubtitle className="center" style={spacing}>Coming Soon</CardSubtitle>
 					          
 					        </CardBody>
