@@ -48,7 +48,7 @@ return(
 			<span className="innerBlurb">
 				Hi! I am a developer and designer interested in interactive web
 				 development and clean interactive custom product experience. I 
-				 currently work at The Dow Chemical Company in the Enterprise Architect practice 
+				  worked at The Dow Chemical Company in the Enterprise Architect practice 
 				 looking to do more hands on development and design. </span>
 
 		</p>
