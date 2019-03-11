@@ -92,7 +92,7 @@ return(
 			<span className="innerBlurb">I was raised in New York(Vestal and Poughkeepsie). 
 			While I enjoy New York, I enjoy learning about all 
 			differnt sorts of culture beyond the New Yorker lifestyle.
-			Living in Michigan for {monthsInMich}  months has enriched my appreciation 
+			Living in Michigan for {monthsInMich}  months, has enriched my appreciation 
 			for different cultures.
 			I've been outside of the US(Namibia) and hope to do some more traveling, 
 			using my travel to enhance my projects and solving different problems
