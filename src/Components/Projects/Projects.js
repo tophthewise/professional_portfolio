@@ -43,28 +43,6 @@ const mobile = {'border':'solid white',
 			</div>
 			<MediaQuery minWidth={1000}>
 			<div className="centerCard">
-				<div className="test" >
-					<Card col-xs="3" >
-					        <CardImg top width="100%" style={ImgStyle} src={CIPic} alt="Card image cap" />
-					        <CardBody className="text-center">
-					          <CardTitle tag="h2" className="center"><b>Checkin' In</b></CardTitle>
-					          <CardText style={visiText}>"Checkin' In" is a design for people with Alcohol Use Disorder (AUD) with their recovery process.  Users can communicate anonymously with others in recovery, and track individual sobreity progress.</CardText>
-					          <Link to = '/CheckinIn' ><Button className="centerButton">See More</Button></Link>
-					        </CardBody>
-					      </Card>
-				</div>
-				<div className="test" >
-					<Card col-xs="3">
-					        <CardImg top style={ImgStyle} width="100%" src={EKPic} alt="Card image cap" />
-					        <CardBody className="text-center">
-					          <CardTitle tag="h2" className="center"><b>Escape Key</b></CardTitle>
-					          <CardText style={visiText}>"Escape Key" is a design for women who don't feel safe on college campuses to have a way out of dangerous situations through: escape routes, 911 quick dialing, or send a distress message.</CardText>
-					          <Link to = '/EscapeKey' ><Button className="centerButton">See More</Button></Link>
-					        </CardBody>
-					      </Card>
-				</div>
-			</div>
-			<div className="centerCard">
 				
 				<div className="test" >
 					<Card col-xs="3">
@@ -76,13 +54,8 @@ const mobile = {'border':'solid white',
 					        </CardBody>
 					      </Card>
 				</div>
-
-			</div>
-			</MediaQuery>
-			<MediaQuery maxWidth={1000}>
-			<div className="centerCard">
-				<div style={mobile} >
-					<Card col-xs="5" >
+				<div className="test" >
+					<Card col-xs="3" >
 					        <CardImg top width="100%" style={ImgStyle} src={CIPic} alt="Card image cap" />
 					        <CardBody className="text-center">
 					          <CardTitle tag="h2" className="center"><b>Checkin' In</b></CardTitle>
@@ -91,20 +64,24 @@ const mobile = {'border':'solid white',
 					        </CardBody>
 					      </Card>
 				</div>
-				</div>
-				<div className="centerCard">
-				<div style={mobile} >	
-				<Card col-xs="5">	        
-				<CardImg top style={ImgStyle} width="100%" src={EKPic} alt="Card image cap" />	  
-				      <CardBody className="text-center">	          
-				      <CardTitle tag="h2" className="center"><b>Escape Key</b></CardTitle>	   
-				      <CardText style={visiText}>"Escape Key" is a design for women who don't feel safe on college campuses to have a way out of dangerous situations through: escape routes, 911 quick dialing, or send a distress message.</CardText>	         
-				       <Link to = '/EscapeKey' ><Button className="centerButton">See More</Button></Link>	 
-				              </CardBody>	      
-				              </Card>
-				              </div>			
-				
+
 			</div>
+			<div className="centerCard">
+				
+				<div className="test" >
+					<Card col-xs="3">
+					        <CardImg top style={ImgStyle} width="100%" src={EKPic} alt="Card image cap" />
+					        <CardBody className="text-center">
+					          <CardTitle tag="h2" className="center"><b>Escape Key</b></CardTitle>
+					          <CardText style={visiText}>"Escape Key" is a design for women who don't feel safe on college campuses to have a way out of dangerous situations through: escape routes, 911 quick dialing, or send a distress message.</CardText>
+					          <Link to = '/EscapeKey' ><Button className="centerButton">See More</Button></Link>
+					        </CardBody>
+					      </Card>
+				</div>
+			</div>
+			
+			</MediaQuery>
+			<MediaQuery maxWidth={1000}>
 			<div className="centerCard">
 				
 				<div style={mobile} >
@@ -119,6 +96,32 @@ const mobile = {'border':'solid white',
 				</div>
 
 			</div>
+			<div className="centerCard">
+				<div style={mobile} >
+					<Card col-xs="5" >
+					        <CardImg top width="100%" style={ImgStyle} src={CIPic} alt="Card image cap" />
+					        <CardBody className="text-center">
+					          <CardTitle tag="h2" className="center"><b>Checkin' In</b></CardTitle>
+					          <CardText style={visiText}>"Checkin' In" is a design for people with Alcohol Use Disorder (AUD) with their recovery process.  Users can communicate anonymously with others in recovery, and track individual sobreity progress.</CardText>
+					          <Link to = '/CheckinIn' ><Button className="centerButton">See More</Button></Link>
+					        </CardBody>
+					      </Card>
+				</div>
+			</div>
+			<div className="centerCard">
+				<div style={mobile} >	
+					<Card col-xs="5">	        
+						<CardImg top style={ImgStyle} width="100%" src={EKPic} alt="Card image cap" />	  
+				      	<CardBody className="text-center">	          
+				      		<CardTitle tag="h2" className="center"><b>Escape Key</b></CardTitle>	   
+				      		<CardText style={visiText}>"Escape Key" is a design for women who don't feel safe on college campuses to have a way out of dangerous situations through: escape routes, 911 quick dialing, or send a distress message.</CardText>	         
+				       		<Link to = '/EscapeKey' ><Button className="centerButton">See More</Button></Link>	 
+				        </CardBody>	      
+				    </Card>
+				</div>			
+				
+			</div>
+			
 			</MediaQuery>
 
 		</div>
