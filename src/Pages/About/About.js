@@ -3,7 +3,7 @@ import React,{Component, Fragment} from 'react';
 import Headshot from '../../img/Headshot.jpg';
 import '../../Components/Navigation/Navigation.css';
 import Musician from '../../Components/Musician/Musician';
-import Resume from '../../Files/Resume_Eric_Porter_12_18_2018.pdf';
+import Resume from '../../Files/Resume_Eric_Porter_3_25_2019.pdf';
 import Nav from '../../Components/About/aboutNavigation'
 import './About.css'
 import logo from '../../img/Sun.svg';
