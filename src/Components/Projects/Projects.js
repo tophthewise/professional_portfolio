@@ -9,6 +9,8 @@
 	import {Link} from 'react-router-dom';
 	import CIPic from '../../img/CheckinIn.png';
 	import EKPic from '../../img/EscapeKey3.png';
+	import comingsoon from '../../img/ComingSoon.jpg';
+
 
 
 
@@ -46,7 +48,7 @@ const mobile = {'border':'solid white',
 				
 				<div className="test" >
 					<Card col-xs="3">
-					        <CardImg top style={ImgStyle}width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+					        <CardImg top style={ImgStyle}width="100%" src= {comingsoon} alt="Card image cap" />
 					        <CardBody>
 					          <CardTitle tag="h2" className="center"> <b>Still Lyfe</b></CardTitle>
 					          <CardSubtitle className="center" style={spacing}>Coming Soon</CardSubtitle>
