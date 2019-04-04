@@ -13,7 +13,6 @@ import About from './Pages/About/About';
 import Designer from './Pages/Designer/Designer';
 import EscapeKey from './Pages/EscapeKey/EscapeKey';
 import CheckinIn from './Pages/CheckinIn/CheckinIn';
-import Footer from './Components/Footer/Footer';
 
 
 
@@ -21,6 +20,7 @@ import Footer from './Components/Footer/Footer';
 
 //components
 import Navigation from "./Components/Navigation/Navigation"
+import Footer from './Components/Footer/Footer';
 
 // ReactDOM.render(<App />,document.getElementById('root'));
 render((  	 
