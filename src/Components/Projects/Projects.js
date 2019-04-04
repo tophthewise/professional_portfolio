@@ -10,6 +10,7 @@
 	import CIPic from '../../img/CheckinIn.png';
 	import EKPic from '../../img/EscapeKey3.png';
 	import comingsoon from '../../img/ComingSoon.jpg';
+	import Endgame from '../../img/Avengers_Tony.jpg';
 
 
 
@@ -44,18 +45,35 @@ const mobile = {'border':'solid white',
 				<h1 className="center display-3">Projects</h1>
 			</div>
 			<MediaQuery minWidth={1000}>
+
+					
 			<div className="centerCard">
 				
+							<div className="test" >
+								<Card col-xs="3">
+							        <CardImg top style={ImgStyle}width="100%" src= {comingsoon} alt="Card image cap" />
+							        <CardBody>
+							          <CardTitle tag="h2" className="center"> <b>Still Lyfe</b></CardTitle>
+							          <CardSubtitle className="center" style={spacing}>Coming Soon</CardSubtitle> 
+							        </CardBody>
+								</Card>
+							</div>
+					
+
 				<div className="test" >
 					<Card col-xs="3">
-					        <CardImg top style={ImgStyle}width="100%" src= {comingsoon} alt="Card image cap" />
+					        <CardImg top style={ImgStyle}width="100%" src= {Endgame} alt="Card image cap" />
 					        <CardBody>
-					          <CardTitle tag="h2" className="center"> <b>Still Lyfe</b></CardTitle>
-					          <CardSubtitle className="center" style={spacing}>Coming Soon</CardSubtitle>
+					          <CardTitle tag="h2" className="center"> <b>End Game(Game)</b></CardTitle>
+					          <CardSubtitle className="center" style={spacing}><a href="https://reactendgame.herokuapp.com/"><Button className="centerButton">Game Here</Button></a></CardSubtitle>
 					          
 					        </CardBody>
 					      </Card>
 				</div>
+				
+
+			</div>
+			<div className="centerCard">
 				<div className="test" >
 					<Card col-xs="3" >
 					        <CardImg top width="100%" style={ImgStyle} src={CIPic} alt="Card image cap" />
@@ -67,9 +85,6 @@ const mobile = {'border':'solid white',
 					      </Card>
 				</div>
 
-			</div>
-			<div className="centerCard">
-				
 				<div className="test" >
 					<Card col-xs="3">
 					        <CardImg top style={ImgStyle} width="100%" src={EKPic} alt="Card image cap" />
@@ -97,6 +112,19 @@ const mobile = {'border':'solid white',
 					      </Card>
 				</div>
 
+			</div>
+			<div className="centerCard">
+
+				<div style={mobile} >
+						<Card col-xs="5">
+						        <CardImg top style={ImgStyle}width="100%" src= {Endgame} alt="Card image cap" />
+						        <CardBody className="text-center">
+						          <CardTitle tag="h2" className="center"> <b>End Game(Game)</b></CardTitle>
+						          <CardSubtitle className="center" style={spacing}><a href="https://reactendgame.herokuapp.com/"><Button className="centerButton">Game Here</Button></a></CardSubtitle>
+						          
+						        </CardBody>
+						</Card>
+				</div>
 			</div>
 			<div className="centerCard">
 				<div style={mobile} >
