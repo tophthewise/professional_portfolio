@@ -36,9 +36,9 @@ render(){
     const startdate = new Date(2018,5,11,0,0,0,0);
     const start_month= startdate.getMonth();
     const start_year = startdate.getFullYear();
-    const today= new Date();
-    const today_month = today.getMonth();
-    const today_year = today.getFullYear();
+    const end_Date= new Date(2018,06,24);
+    const today_month = end_Date.getMonth();
+    const today_year = end_Date.getFullYear();
     var totalMonths=0;
     function month_diff (){
     	const first_year_months = 12-start_month+1;
