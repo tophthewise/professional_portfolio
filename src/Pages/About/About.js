@@ -36,7 +36,7 @@ render(){
     const startdate = new Date(2018,5,11,0,0,0,0);
     const start_month= startdate.getMonth();
     const start_year = startdate.getFullYear();
-    const end_Date= new Date(2018,06,24);
+    const end_Date= new Date(2018,5,24);
     const today_month = end_Date.getMonth();
     const today_year = end_Date.getFullYear();
     var totalMonths=0;
