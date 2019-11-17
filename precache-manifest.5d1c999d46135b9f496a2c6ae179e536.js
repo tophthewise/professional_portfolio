@@ -84,12 +84,12 @@ self.__precacheManifest = [
     "url": "/static/media/fa-regular-400.fc5252e5.woff"
   },
   {
-    "revision": "8e9f0ee6d016526776c27f91fea55cca",
-    "url": "/static/media/fa-regular-400.8e9f0ee6.eot"
-  },
-  {
     "revision": "deb8619e67992d3fa088b5dcbb8cff36",
     "url": "/static/media/fa-regular-400.deb8619e.ttf"
+  },
+  {
+    "revision": "8e9f0ee6d016526776c27f91fea55cca",
+    "url": "/static/media/fa-regular-400.8e9f0ee6.eot"
   },
   {
     "revision": "b89c6c51aa2999159a6667f97a46a346",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
     "url": "/static/css/1.404e65e4.chunk.css"
   },
   {
-    "revision": "98bd14dc167e1b4b599bf328ddc412f0",
+    "revision": "017ac3711cf2964e5b2bc1d8bc6b5433",
     "url": "/index.html"
   }
 ];
