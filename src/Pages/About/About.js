@@ -74,18 +74,19 @@ return(
 			<span className="innerBlurb">
 				Hi! I am a developer and designer interested in interactive web
 				 development and clean interactive custom product experience. I 
-				  worked at The Dow Chemical Company in the Enterprise Architect practice. Now I am
+				  worked at The Dow Chemical Company in the Enterprise Architect practice and at Chevron Corporation as a Software Engineer. Now I am
 				 looking to do more hands on development and design. </span>
 
 		</p>
 		<p className = "cleanspace">
 			<span className="innerBlurb">
-				My interests range from equitable pay of all musical artists 
-				and the business model of independent artists to solving complex
-				 social issues through critical and speculative design. 
+				My interests range from the music industry and independent artist business models to financially enabling DIY'ers.
 				Through working in the intersection of Business and Technology 
-				I hope to influence the changes in daily problems  using smart analytics 
-				and visualizations to revolutionize user experiences for all.
+				I hope to influence the changes in daily problems using cutting edge technologies in  analytics 
+				visualizations, and data to revolutionize user experiences for all. I am particularly fond of Javascript and how it is changing(React, node, express).
+				Working in Industry has shown me how companies are using new technologies and might have a tough time getting newer tech implemented(being that it is changing daily). 
+				This excites me on what the future has to hold. REST API's and the advent of node is changing the way we see and use the web in a little under 10 years. 
+
 			</span>
 		</p>
 		<p className = "cleanspace">
@@ -96,7 +97,7 @@ return(
 			for different cultures.
 			I've been outside of the US(Namibia) and hope to do some more traveling, 
 			using my travel to enhance my projects and solving different problems
-			 with different cultural lenses. 
+			 with different cultural lenses.
 			 When not traveling I enjoy making <a href="https://distrokid.com/hyperfollow/tph12/valentines-day"> {"music"}</a>, DIY projects and Freelance web development. See my <Link to="/Projects"> {'projects'} </Link>, and email me for prices.
 			 </span>
 		</p>
