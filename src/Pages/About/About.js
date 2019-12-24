@@ -3,7 +3,6 @@ import React,{Component, Fragment} from 'react';
 import Headshot from '../../img/Headshot.jpg';
 import '../../Components/Navigation/Navigation.css';
 import Musician from '../../Components/Musician/Musician';
-import Resume from '../../Files/Resume_Eric_Porter_3_25_2019.pdf';
 import Nav from '../../Components/About/aboutNavigation'
 import './About.css'
 import logo from '../../img/Sun.svg';
@@ -65,7 +64,6 @@ return(
 	<div className="center">
 		<h1 className="center">About</h1>
 		<img className ="center" src={Headshot}/>
-
 	</div>
 	
 	<Nav className="center" logoTitle="Cornell (BS '17,MS '18)"/>
