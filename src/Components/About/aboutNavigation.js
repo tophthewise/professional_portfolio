@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import '../Navigation/Navigation.css';
-import Resume from '../../Files/Resume_Eric_Porter_11_14_2019.pdf';
+import Resume from '../../Files/Resume_Eric_Porter_11_27_2019.pdf';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
