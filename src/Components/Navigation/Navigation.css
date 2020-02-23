@@ -1,45 +1,50 @@
-.logo{
-	font-size: 64px;
-	color:#00a9ea;
-	margin-top: 3px;
-	margin-bottom: 0px;
-	padding:10px;
+@font-face {
+  font-family: "Riverside";
+  src: local("Riverside"), url(../../fonts/Riverside.otf) format("opentype");
 }
-nav{
-	display:flex;
-	justify-content: space-between;
-	background-color: #282c34;
-	color:#d7dae0;
-	align-items: center;
-	padding-right:20px;
-	padding-left: 20px;
+@font-face {
+  font-family: "Bellada";
+  src: local("Bellada"), url(../../fonts/bellada.ttf) format("truetype");
+}
+.logo {
+  font-size: 64px;
+  color: #00a9ea;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #282c34;
+  color: #e5e7eb;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: Riverside;
+}
 
+.navdrops {
+  color: #ff7260;
 }
-
-.navdrops{
-	color:#ff7260;
+nav ul {
+  list-style: none;
 }
-nav ul{
-	list-style: none;
-
+nav ul li {
+  display: inline-block;
+  margin-right: 8px;
 }
-nav ul li{
-	display:inline-block;
-	margin-right: 8px;
+nav ul li a {
+  text-decoration: none;
+  color: #ff7260;
+  font-size: 30px;
+  padding-left: 7%;
 }
-nav ul li a{
-text-decoration: none;
-color:#ff7260;
-font-size: 30px;
-padding-left: 7%;
-}
-.subheader{
-	background-color: #282c34;
-	color: #d7dae0;
-	align-items: left;
-	Margin:0000;
-	padding-left: 10vw;
-	font-size: 25px;
-
-
+.subheader {
+  background-color: #282c34;
+  color: #e5e7eb;
+  align-items: left;
+  margin: 0000;
+  padding-left: 10vw;
+  font-size: 40px;
 }

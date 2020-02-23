@@ -1,13 +1,12 @@
-header{
-	margin:0 auto;
-	text-align: center;
-	padding-top:100px;
-	font-size: 46px;
+header {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 46px;
 }
-a{
-	text-decoration: none;
-	color: #d7dae0;
-
+a {
+  text-decoration: none;
+  color: #e5e7eb;
 }
 
 .center {
@@ -20,12 +19,12 @@ a{
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 2%;
-  color:#d7dae0;
+  color: #e5e7eb;
 }
-.background{
-		background-color: #282c34;
+.background {
+  background-color: #282c34;
 }
-.spaceLinks{
+.spaceLinks {
   margin-top: 5%;
   margin-bottom: 5%;
 }

@@ -1,6 +1,19 @@
-.centerAbout{
-	text-align:center;
-	display: block;
+@font-face {
+  font-family: "Riverside";
+  src: local("Riverside"), url(../../fonts/Riverside.otf) format("opentype");
+}
+@font-face {
+  font-family: "Bellada";
+  src: local("Bellada"), url(../../fonts/bellada.ttf) format("truetype");
+}
+@font-face {
+  font-family: "LabTop";
+  src: local("LabTop"), url(../../fonts/LABTOPB_.ttf) format("truetype");
+}
+
+.centerAbout {
+  text-align: center;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -9,23 +22,25 @@
   margin-bottom: 10;
   padding-top: 10;
   padding-bottom: 10;
-  color:#d7dae0;
+  color: #e5e7eb;
 }
-.innerBlurb{
-margin-top: 0;
+.innerBlurb {
+  margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
-  padding-bottom: 0}
-img{
-	border-radius: 20%;
+  padding-bottom: 0;
+  font-size: 30px;
 }
-.movein{
-	margin-left: 10vw;
-	margin-right: 10vw;
+img {
+  border-radius: 20%;
+}
+.movein {
+  margin-left: 10vw;
+  margin-right: 10vw;
   padding-bottom: 10vh;
   padding-top: 10vh;
 }
-.cleanspace{
+.cleanspace {
   margin-bottom: 0;
   padding-top: 5vh;
   padding-bottom: 5vh;

@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #d7dae0;
+  color: #e5e7eb;
 }
 
 .App-link {
@@ -30,6 +30,6 @@
     transform: rotate(360deg);
   }
 }
-header{
-  color:#d7dae0;
+header {
+  color: #e5e7eb;
 }

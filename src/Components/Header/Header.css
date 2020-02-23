@@ -1,13 +1,11 @@
-header{
-	margin:0 auto;
-	text-align: center;
-	padding-top:300px;
-	color:#d7dae0;
-	font-size: 46px;
+header {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 300px;
+  color: #e5e7eb;
+  font-size: 46px;
 }
-a{
-	text-decoration: none;
-	color: #d7dae0;
-
+a {
+  text-decoration: none;
+  color: #e5e7eb;
 }
-

@@ -10,14 +10,21 @@ library.add(fab, fas);
 
 class aboutNav extends Component {
   render() {
-    const bigText = { "font-size": "20px", "padding-left": "0" };
+    const bigText = { "font-size": "30px", "padding-left": "0" };
     const bigTitle = { "font-size": "40px" };
+    const bigHeader = { "font-size": "50px", "font-family": "Riverside" };
     const spacing = { "padding-left": "5px" };
     const profiles = [
       {
         to: "https://www.linkedin.com/in/eric-porter-687aa6122/",
         label: "LinkedIn",
         icon: "linkedin",
+        icon_pack: "fab"
+      },
+      {
+        to: "https://medium.com/@eric.porter820",
+        label: "Medium",
+        icon: "medium",
         icon_pack: "fab"
       },
       {
@@ -55,6 +62,9 @@ class aboutNav extends Component {
         <h2 className="logo" style={bigTitle}>
           {this.props.logoTitle}
         </h2>{" "}
+        <h2 className="logo" style={bigHeader}>
+          {this.props.subheader}
+        </h2>
         {/* make this logoTitle "About Me" */}
       </div>
     );
