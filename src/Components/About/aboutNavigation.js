@@ -62,7 +62,7 @@ class aboutNav extends Component {
         <h2 className="logo" style={bigTitle}>
           {this.props.logoTitle}
         </h2>{" "}
-        <h2 className="logo" style={bigHeader}>
+        <h2 className="logo" style={bigTitle}>
           {this.props.subheader}
         </h2>
         {/* make this logoTitle "About Me" */}

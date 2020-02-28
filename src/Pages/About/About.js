@@ -64,7 +64,6 @@ class About extends Component {
             logoTitle="Cornell University"
             subheader="(BS '17, MS '18)"
           />
-
           <div className="movein ">
             <p className="cleanspace">
               <span className="innerBlurb">

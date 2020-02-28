@@ -13,6 +13,8 @@ import About from "./Pages/About/About";
 import Designer from "./Pages/Designer/Designer";
 import EscapeKey from "./Pages/EscapeKey/EscapeKey";
 import CheckinIn from "./Pages/CheckinIn/CheckinIn";
+import Tutoring from "./Pages/Tutoring/Tutoring";
+import FAQ from "./pages/FAQ/FAQ";
 
 //components
 import Navigation from "./Components/Navigation/Navigation";
@@ -30,6 +32,8 @@ render(
         <Route path="/Designer" component={Designer} />
         <Route path="/EscapeKey" component={EscapeKey} />
         <Route path="/CheckinIn" component={CheckinIn} />
+        <Route path="/Services" component={Tutoring} />
+        <Route path="/Services/FAQ" component={FAQ} />
       </Switch>
       <Footer />
     </Fragment>

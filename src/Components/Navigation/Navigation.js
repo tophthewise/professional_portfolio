@@ -41,7 +41,8 @@ class Navigation extends Component {
     const sections = [
       { to: "/", label: "Home" },
       { to: "/About", label: "About" },
-      { to: "/Designer", label: "Projects" }
+      { to: "/Designer", label: "Projects" },
+      { to: "/Services", label: "Services" }
     ];
     const navlinks = sections.map(section => {
       return (

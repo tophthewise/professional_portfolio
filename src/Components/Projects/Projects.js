@@ -93,13 +93,13 @@ class Projects extends Component {
                       style={{
                         fontFamily: "Riverside",
                         fontSize: "2.0em",
-                        color: "#AA0505"
+                        color: "#A788A8"
                       }}
                       tag="h2"
                       className="center"
                     >
                       {" "}
-                      End Game (Game)
+                      End Game: The Game
                     </CardTitle>
                     <CardText style={visiText}>
                       Thanos has done the unthinkable and snapped half of
