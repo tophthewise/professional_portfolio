@@ -1,4 +1,7 @@
 import React, { Component, Fragment } from "react";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import { Form, Input, Button } from "reactstrap";
 
 import "./Tutoring.css";
@@ -13,7 +16,9 @@ class Tutoring extends Component {
     };
     return (
       <Fragment>
-        <h1 className="center">Services</h1>
+        <h1 className="center" style={{ fontFamily: "Riverside" }}>
+          Services
+        </h1>
         <h2 className="center"> Tutoring</h2>
         <h4 className="center">
           I offer tutoring services in Mathematics and Computer Science. In
@@ -37,6 +42,15 @@ class Tutoring extends Component {
         </h4>
         <h4 className="center" hidden>
           My rate as a consultant is $30/hr
+        </h4>
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <h2 className="center"> Have a Question?</h2>
+        <h4 className="center">
+          <Link to="/FAQ">See FAQ's</Link>
         </h4>
       </Fragment>
     );

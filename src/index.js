@@ -14,8 +14,7 @@ import Designer from "./Pages/Designer/Designer";
 import EscapeKey from "./Pages/EscapeKey/EscapeKey";
 import CheckinIn from "./Pages/CheckinIn/CheckinIn";
 import Tutoring from "./Pages/Tutoring/Tutoring";
-import FAQ from "./pages/FAQ/FAQ";
-
+import faq from "./Pages/FAQ/FAQ";
 //components
 import Navigation from "./Components/Navigation/Navigation";
 import Footer from "./Components/Footer/Footer";
@@ -33,7 +32,7 @@ render(
         <Route path="/EscapeKey" component={EscapeKey} />
         <Route path="/CheckinIn" component={CheckinIn} />
         <Route path="/Services" component={Tutoring} />
-        <Route path="/Services/FAQ" component={FAQ} />
+        <Route path="/FAQ" component={faq} />
       </Switch>
       <Footer />
     </Fragment>

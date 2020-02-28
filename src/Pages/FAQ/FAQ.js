@@ -1,9 +1,18 @@
 import React, { Component, Fragment } from "react";
+import { Link } from "react-router-dom";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 class FAQ extends Component {
   state = {};
   render() {
     return (
       <Fragment>
+        <p className="center" style={{ fontFamily: "Riverside" }}>
+          <Link to="/Services">
+            <FontAwesomeIcon icon={(fas, "undo")} /> Services
+          </Link>
+        </p>
         <h1 className="center">FAQ's</h1>
         <h2 className="faq_center" style={{ fontFamily: "Helvetica" }}>
           <b> Q: How can I reach you?</b>
