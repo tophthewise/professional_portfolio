@@ -1,23 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "b1007fbd95da7b0b6d1e",
-    "url": "/static/css/main.8ac222ba.chunk.css"
+    "revision": "cc3781effd0ba15a8a67",
+    "url": "/static/css/main.03fa2e5c.chunk.css"
   },
   {
-    "revision": "b1007fbd95da7b0b6d1e",
-    "url": "/static/js/main.b1007fbd.chunk.js"
+    "revision": "cc3781effd0ba15a8a67",
+    "url": "/static/js/main.cc3781ef.chunk.js"
   },
   {
-    "revision": "874f591c4920fa4612da",
-    "url": "/static/css/1.081c092b.chunk.css"
+    "revision": "48e6a089dadedbf2e8c1",
+    "url": "/static/css/1.1aea4f82.chunk.css"
   },
   {
-    "revision": "874f591c4920fa4612da",
-    "url": "/static/js/1.874f591c.chunk.js"
+    "revision": "48e6a089dadedbf2e8c1",
+    "url": "/static/js/1.48e6a089.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
+  },
+  {
+    "revision": "d1be0223b5fb86bc882d9ca7e0cd6a0a",
+    "url": "/static/media/Riverside.d1be0223.otf"
+  },
+  {
+    "revision": "32cbf166851f31ff707dce7bf23974ff",
+    "url": "/static/media/bellada.32cbf166.ttf"
   },
   {
     "revision": "d2b1c03b91a956918f15a5b6e20fbf60",
@@ -36,20 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/Sun.5232493e.svg"
   },
   {
-    "revision": "04690b328cd0fafb8e05154e4c5e6472",
-    "url": "/static/media/EscapeKeyPoster.04690b32.png"
-  },
-  {
-    "revision": "528654cef340aeb651ec220319a6ad50",
-    "url": "/static/media/CheckinInPoster.528654ce.png"
-  },
-  {
     "revision": "7d43b9ae0b8bb1d0dc425d78dc577b0a",
     "url": "/static/media/fa-brands-400.7d43b9ae.eot"
-  },
-  {
-    "revision": "b89c6c51aa2999159a6667f97a46a346",
-    "url": "/static/media/fa-brands-400.b89c6c51.woff2"
   },
   {
     "revision": "dd4ff1196905f0585aef2c80486869e9",
@@ -60,16 +56,20 @@ self.__precacheManifest = [
     "url": "/static/media/fa-brands-400.50a544b5.ttf"
   },
   {
-    "revision": "e65d96d04378217b8b5caff2fb1b62cb",
-    "url": "/static/media/fa-regular-400.e65d96d0.woff2"
+    "revision": "b89c6c51aa2999159a6667f97a46a346",
+    "url": "/static/media/fa-brands-400.b89c6c51.woff2"
+  },
+  {
+    "revision": "fc5252e568503bfb163233ec63b8a2ce",
+    "url": "/static/media/fa-regular-400.fc5252e5.woff"
   },
   {
     "revision": "8e9f0ee6d016526776c27f91fea55cca",
     "url": "/static/media/fa-regular-400.8e9f0ee6.eot"
   },
   {
-    "revision": "fc5252e568503bfb163233ec63b8a2ce",
-    "url": "/static/media/fa-regular-400.fc5252e5.woff"
+    "revision": "e65d96d04378217b8b5caff2fb1b62cb",
+    "url": "/static/media/fa-regular-400.e65d96d0.woff2"
   },
   {
     "revision": "deb8619e67992d3fa088b5dcbb8cff36",
@@ -124,19 +124,31 @@ self.__precacheManifest = [
     "url": "/static/media/Music_Cover.617c614d.jpg"
   },
   {
-    "revision": "b390fcebcbe415f39f9dc36cb339a667",
-    "url": "/static/media/Headshot.b390fceb.jpg"
-  },
-  {
-    "revision": "6ea42eb237e118313d966cd124d4162e",
-    "url": "/static/media/Resume_Eric_Porter_11_27_2019.6ea42eb2.pdf"
-  },
-  {
     "revision": "e39533cd22a277fba2d0cf1b10cc5d81",
     "url": "/static/media/Music.e39533cd.png"
   },
   {
-    "revision": "74a1a33e9895f81f624a35024bd81d24",
+    "revision": "b390fcebcbe415f39f9dc36cb339a667",
+    "url": "/static/media/Headshot.b390fceb.jpg"
+  },
+  {
+    "revision": "a92a24c338b8ef3e8c1a2283e6879cd1",
+    "url": "/static/media/Resume_Eric_Porter_1_5_2020.a92a24c3.pdf"
+  },
+  {
+    "revision": "04690b328cd0fafb8e05154e4c5e6472",
+    "url": "/static/media/EscapeKeyPoster.04690b32.png"
+  },
+  {
+    "revision": "528654cef340aeb651ec220319a6ad50",
+    "url": "/static/media/CheckinInPoster.528654ce.png"
+  },
+  {
+    "revision": "46ad262c51f140de4947233e7dd884bb",
+    "url": "/static/media/LABTOPB_.46ad262c.ttf"
+  },
+  {
+    "revision": "81dc70ea7ee829ce9b17a230c95f6e4a",
     "url": "/index.html"
   }
 ];
