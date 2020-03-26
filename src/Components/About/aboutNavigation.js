@@ -13,7 +13,7 @@ class aboutNav extends Component {
     const bigText = { "font-size": "30px", "padding-left": "0" };
     const bigTitle = { "font-size": "40px" };
     const bigHeader = { "font-size": "50px", "font-family": "Riverside" };
-    const spacing = { "padding-left": "5px" };
+    const spacing = { "padding-left": "5px", "font-family": "Riverside" };
     const profiles = [
       {
         to: "https://www.linkedin.com/in/eric-porter-687aa6122/",
@@ -50,7 +50,7 @@ class aboutNav extends Component {
       <div>
         <nav>
           <ul className="center">
-            <li>
+            <li style={{ "font-family": "Riverside" }}>
               <a href={Resume} download="Eric_Porter.pdf" style={bigText}>
                 Resume{" "}
                 <FontAwesomeIcon icon={["fas", "file-download"]} size="lg" />

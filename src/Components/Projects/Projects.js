@@ -198,7 +198,10 @@ class Projects extends Component {
                   />
                   <CardBody>
                     <CardTitle
-                      style={{ fontFamily: "Riverside", fontSize: "2.0em" }}
+                      style={{
+                        fontFamily: "Riverside",
+                        fontSize: "2.0em"
+                      }}
                       tag="h2"
                       className="center"
                     >
@@ -224,7 +227,11 @@ class Projects extends Component {
                   />
                   <CardBody className="text-center">
                     <CardTitle
-                      style={{ fontFamily: "Riverside", fontSize: "2.0em" }}
+                      style={{
+                        fontFamily: "Riverside",
+                        fontSize: "2.0em",
+                        color: "#A788A8"
+                      }}
                       tag="h2"
                       className="center"
                     >
@@ -252,7 +259,11 @@ class Projects extends Component {
                   />
                   <CardBody className="text-center">
                     <CardTitle
-                      style={{ fontFamily: "Riverside", fontSize: "2.0em" }}
+                      style={{
+                        fontFamily: "Riverside",
+                        fontSize: "2.0em",
+                        color: "#6CA8CF"
+                      }}
                       tag="h2"
                       className="center"
                     >
@@ -283,7 +294,11 @@ class Projects extends Component {
                   />
                   <CardBody className="text-center">
                     <CardTitle
-                      style={{ fontFamily: "Riverside", fontSize: "2.0em" }}
+                      style={{
+                        fontFamily: "Riverside",
+                        fontSize: "2.0em",
+                        color: "#00BCD3"
+                      }}
                       tag="h2"
                       className="center"
                     >

@@ -46,7 +46,10 @@ class Navigation extends Component {
     ];
     const navlinks = sections.map(section => {
       return (
-        <li style={{ paddingRight: "5px" }} key={section.label}>
+        <li
+          style={{ paddingRight: "5px", "font-family": "Riverside" }}
+          key={section.label}
+        >
           <Link to={section.to}>{section.label}</Link>
         </li>
       );
