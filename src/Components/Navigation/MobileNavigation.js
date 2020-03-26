@@ -70,6 +70,14 @@ class hamburgerMenuPage extends Component {
                     Projects
                   </MDBNavLink>
                 </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink
+                    style={{ color: "#ff7260", textAlign: "center" }}
+                    to="/Services"
+                  >
+                    Services
+                  </MDBNavLink>
+                </MDBNavItem>
               </NavbarNav>
             </MDBCollapse>
           </MDBContainer>
