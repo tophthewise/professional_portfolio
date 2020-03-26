@@ -22,7 +22,8 @@ const myStyle = {
 const myStyle2 = {
   backgroundImage: `url( ${backdrop_m} )`,
   height: 500,
-  backgroundSize: "cover"
+  backgroundSize: "cover",
+  "font-family": "Riverside"
 };
 const subhead = {
   "font-size": "48px",
