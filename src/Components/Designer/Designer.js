@@ -56,9 +56,9 @@ class Designer extends Component {
                 <Link to="/Designer" style={subhead}>
                   {" Designs "}
                 </Link>
+                <FontAwesomeIcon icon={["fas", "drafting-compass"]} />
               </p>
             </header>
-            <FontAwesomeIcon icon={["fas", "drafting-compass"]} />
           </div>
         </MediaQuery>
       </Fragment>

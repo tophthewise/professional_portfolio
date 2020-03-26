@@ -10,6 +10,7 @@ import {
   MDBContainer
 } from "mdbreact";
 import hambarter from "../../img/Hamburger.png";
+import "./Navigation.css";
 class hamburgerMenuPage extends Component {
   state = {
     collapseID: ""
@@ -32,8 +33,15 @@ class hamburgerMenuPage extends Component {
           <MDBContainer>
             <MDBNavbarBrand>
               <h3 className="subheader" style={{ paddingLeft: "0" }}>
-                {" "}
-                Developer & Designer
+                <span style={{ "font-family": "Riverside" }}>Designer </span> &{" "}
+                <span
+                  style={{
+                    color: "#e5e7eb",
+                    fontWeight: "4px"
+                  }}
+                >
+                  Developer
+                </span>
               </h3>
             </MDBNavbarBrand>
             <MDBNavbarToggler
@@ -45,7 +53,10 @@ class hamburgerMenuPage extends Component {
               isOpen={this.state.collapseID}
               navbar
             >
-              <NavbarNav left style={{ color: "#e5e7eb" }}>
+              <NavbarNav
+                left
+                style={{ color: "#e5e7eb", "font-family": "Riverside" }}
+              >
                 <MDBNavItem active>
                   <MDBNavLink
                     style={{ color: "#ff7260", textAlign: "center" }}
