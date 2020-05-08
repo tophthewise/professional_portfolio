@@ -12,7 +12,7 @@ library.add(fab, fas);
 const myStyle = {
   backgroundImage: `url( ${backdrop} )`,
   height: 500,
-  backgroundSize: "cover"
+  backgroundSize: "cover",
 };
 
 class Developer extends Component {
@@ -20,9 +20,9 @@ class Developer extends Component {
     return (
       <div className="tile">
         <header style={myStyle}>
-          <h1> {this.props.title} </h1>
+          <h1 style={{ "font-family": "Futura" }}> {this.props.title} </h1>
 
-          <p>
+          <p style={{ "font-family": "Futura" }}>
             <a href="https://github.com/tophthewise">
               {" Code "}
               <FontAwesomeIcon icon={["fab", "github"]} />

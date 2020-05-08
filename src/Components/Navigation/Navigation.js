@@ -17,8 +17,9 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem
+  DropdownItem,
 } from "reactstrap";
+import { faYoutubeSquare } from "@fortawesome/free-brands-svg-icons";
 library.add(fas);
 
 class Navigation extends Component {
@@ -27,13 +28,13 @@ class Navigation extends Component {
 
     this.toggleNavbar = this.toggleNavbar.bind(this);
     this.state = {
-      collapsed: true
+      collapsed: true,
     };
   }
 
   toggleNavbar() {
     this.setState({
-      collapsed: !this.state.collapsed
+      collapsed: !this.state.collapsed,
     });
   }
 
@@ -42,9 +43,9 @@ class Navigation extends Component {
       { to: "/", label: "Home" },
       { to: "/About", label: "About" },
       { to: "/Designer", label: "Projects" },
-      { to: "/Services", label: "Services" }
+      { to: "/Services", label: "Services" },
     ];
-    const navlinks = sections.map(section => {
+    const navlinks = sections.map((section) => {
       return (
         <li
           style={{ paddingRight: "5px", "font-family": "Riverside" }}
@@ -69,7 +70,8 @@ class Navigation extends Component {
             <span
               style={{
                 color: "#e5e7eb",
-                fontWeight: "4px"
+                fontWeight: "4px",
+                "font-family": "Futura",
               }}
             >
               Developer

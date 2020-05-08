@@ -7,18 +7,18 @@ import {
   MDBNavLink,
   MDBNavbarToggler,
   MDBCollapse,
-  MDBContainer
+  MDBContainer,
 } from "mdbreact";
 import hambarter from "../../img/Hamburger.png";
 import "./Navigation.css";
 class hamburgerMenuPage extends Component {
   state = {
-    collapseID: ""
+    collapseID: "",
   };
 
-  toggleCollapse = collapseID => () => {
-    this.setState(prevState => ({
-      collapseID: prevState.collapseID !== collapseID ? collapseID : ""
+  toggleCollapse = (collapseID) => () => {
+    this.setState((prevState) => ({
+      collapseID: prevState.collapseID !== collapseID ? collapseID : "",
     }));
   };
 
@@ -37,7 +37,8 @@ class hamburgerMenuPage extends Component {
                 <span
                   style={{
                     color: "#e5e7eb",
-                    fontWeight: "4px"
+                    fontWeight: "4px",
+                    "font-family": "Futura",
                   }}
                 >
                   Developer

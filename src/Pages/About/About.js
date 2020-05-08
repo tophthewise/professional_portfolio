@@ -16,11 +16,11 @@ class About extends Component {
     const profiles = [
       {
         to: "https://www.linkedin.com/in/eric-porter-687aa6122/",
-        label: "LinkedIn"
+        label: "LinkedIn",
       },
-      { to: "mailto:eric.porter820@gmail.com", label: "Contact" }
+      { to: "mailto:eric.porter820@gmail.com", label: "Contact" },
     ];
-    const profile_links = profiles.map(profile => {
+    const profile_links = profiles.map((profile) => {
       return (
         <li key={profile.label}>
           <a href={profile.to}>{profile.label}</a>
@@ -67,11 +67,12 @@ class About extends Component {
           <div className="movein ">
             <p className="cleanspace">
               <span className="innerBlurb">
-                Hi! I am a developer and designer interested in interactive web
-                development and clean interactive custom product experience. I
-                worked at The Dow Chemical Company in the Enterprise Architect
-                practice and at Chevron Corporation as a Software Engineer. Now
-                I am looking to do more hands on development and design.{" "}
+                <span style={{ fontSize: "60px" }}> Welcome!</span> I am a
+                developer and designer interested in interactive web development
+                and clean interactive custom product experience. I worked at The
+                Dow Chemical Company in the Enterprise Architect practice and at
+                Chevron Corporation as a Software Engineer. Now I am looking to
+                do more hands on development and design.{" "}
               </span>
             </p>
             <p className="cleanspace">

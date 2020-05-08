@@ -9,14 +9,14 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle,
-  Button
+  Button,
 } from "reactstrap";
 import MediaQuery from "react-responsive";
 
 import { Link } from "react-router-dom";
 import CIPic from "../../img/CheckinIn.png";
 import EKPic from "../../img/EscapeKey3.png";
-import comingsoon from "../../img/ComingSoon.jpg";
+import comingsoon from "../../img/StyllLifeLogo.png";
 import Endgame from "../../img/Avengers_Tony.jpg";
 
 class Projects extends Component {
@@ -25,9 +25,9 @@ class Projects extends Component {
       height: "40vh",
       width: "100%",
       "border-radius": "17%",
-      "padding-top": "5vh"
+      "padding-top": "5vh",
     };
-    const visiText = { "font-size": "1.2rem" };
+    const visiText = { "font-size": "1.2rem", "font-family": "futura" };
     const spacing = { paddingBottom: "10%" };
     const mobile = {
       border: "solid white",
@@ -36,7 +36,7 @@ class Projects extends Component {
       "margin-left": "6.5vw",
       "text-align": "center",
       height: "600px",
-      width: "80%"
+      width: "80%",
     };
 
     return (
@@ -71,7 +71,7 @@ class Projects extends Component {
                       {" "}
                       Styll Life
                     </CardTitle>
-                    <CardSubtitle className="center" style={spacing}>
+                    <CardSubtitle className="center" style={visiText}>
                       Styll Life is a collective of artists who share the
                       experience of their Still life moments
                     </CardSubtitle>
@@ -93,7 +93,7 @@ class Projects extends Component {
                       style={{
                         fontFamily: "Riverside",
                         fontSize: "2.0em",
-                        color: "#A788A8"
+                        color: "#A788A8",
                       }}
                       tag="h2"
                       className="center"
@@ -130,7 +130,7 @@ class Projects extends Component {
                       style={{
                         fontFamily: "Riverside",
                         fontSize: "2.0em",
-                        color: "#00BCD3"
+                        color: "#00BCD3",
                       }}
                       tag="h2"
                       className="center"
@@ -164,7 +164,7 @@ class Projects extends Component {
                       style={{
                         fontFamily: "Riverside",
                         fontSize: "2.0em",
-                        color: "#6CA8CF"
+                        color: "#6CA8CF",
                       }}
                       tag="h2"
                       className="center"
@@ -200,7 +200,7 @@ class Projects extends Component {
                     <CardTitle
                       style={{
                         fontFamily: "Riverside",
-                        fontSize: "2.0em"
+                        fontSize: "2.0em",
                       }}
                       tag="h2"
                       className="center"
@@ -230,7 +230,7 @@ class Projects extends Component {
                       style={{
                         fontFamily: "Riverside",
                         fontSize: "2.0em",
-                        color: "#A788A8"
+                        color: "#A788A8",
                       }}
                       tag="h2"
                       className="center"
@@ -262,7 +262,7 @@ class Projects extends Component {
                       style={{
                         fontFamily: "Riverside",
                         fontSize: "2.0em",
-                        color: "#6CA8CF"
+                        color: "#6CA8CF",
                       }}
                       tag="h2"
                       className="center"
@@ -297,7 +297,7 @@ class Projects extends Component {
                       style={{
                         fontFamily: "Riverside",
                         fontSize: "2.0em",
-                        color: "#00BCD3"
+                        color: "#00BCD3",
                       }}
                       tag="h2"
                       className="center"
