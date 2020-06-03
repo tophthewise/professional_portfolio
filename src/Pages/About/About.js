@@ -67,47 +67,47 @@ class About extends Component {
           <div className="movein ">
             <p className="cleanspace">
               <span className="innerBlurb">
-                <span style={{ fontSize: "60px" }}> Welcome!</span> I am a
-                developer and designer interested in interactive web development
-                and clean interactive custom product experience. I worked at The
-                Dow Chemical Company in the Enterprise Architect practice and at
-                Chevron Corporation as a Software Engineer. Now I am looking to
-                do more hands on development and design.{" "}
+                <span style={{ fontSize: "60px" }}> Welcome!</span> I am a web
+                developer and aspiring designer interested in UX. My experience
+                includes Enterprise Architecture work at The Dow Chemical
+                Company and Software Engineering at Chevron Corporation. Now I
+                am looking to do more hands-on development and design.{" "}
               </span>
             </p>
             <p className="cleanspace">
               <span className="innerBlurb">
-                My interests range from business models for independent artist
-                in the music industry to financially enabling DIY'ers. Through
-                working in the intersection of Business and Technology I hope to
-                influence the changes in daily problems using cutting edge
-                technologies in analytics visualizations, and data to
-                revolutionize user experiences for all. I am particularly fond
-                of Javascript and how it is changing(React, node, express).
+                My interests range from the business of the independent musical
+                artist to the enablement of financial literacy in young adults
+                and digital design in Marketing. Working in the intersection of
+                Business and Technology, I hope to influence the changes in
+                daily problems using new analytical results from visualizations
+                to revolutionize user experiences for all. I am particularly
+                fond of Javascript and how it is changing(React, Node, express).
                 Working in Industry has shown me how companies are using new
                 technologies and might have a tough time getting newer tech
                 implemented(being that it is changing daily). This excites me on
-                what the future has to hold. REST API's and the advent of node
-                is changing the way we see and use the web in a little under 10
-                years.
+                what the future has to hold. REST API's and the advent of
+                Node.js is changing the way we see and use the web in a little
+                under 10 years.
               </span>
             </p>
             <p className="cleanspace">
               <span className="innerBlurb">
-                I was raised in New York(Vestal and Poughkeepsie). While I enjoy
-                New York, I enjoy learning about all differnt sorts of culture
-                beyond the New Yorker lifestyle. Living in Michigan and
-                California, for {monthsInMich} and 4 months respectively, has
-                enriched my appreciation for different cultures. I've been
-                outside of the US(Namibia) and hope to do some more traveling,
-                using my travel to enhance my projects and solving different
-                problems with different cultural lenses. When not traveling I
-                enjoy making{" "}
+                I was raised in New York State living primarily in Vestal(6
+                years) and Poughkeepsie(6 years). While I enjoy New York, I also
+                enjoy learning about cultures different than the New Yorker
+                lifestyle. Having lived in Michigan and California, for 12 and 4
+                months respectively, enriched my experience in learning about
+                cultures different from my own. I've been outside of the
+                US(Namibia) and hope to do some more traveling to enhance my
+                projects, solving different problems through different cultural
+                lenses. When not working, I enjoy making
                 <a href="https://distrokid.com/hyperfollow/tph12/valentines-day">
                   {" "}
                   {"music"}
                 </a>
-                , DIY projects and freelance web development. See my{" "}
+                , Editing Photos(a recent development) and web development for
+                small clients. See my
                 <Link to="/Projects"> {"projects"} </Link>, and email me for
                 prices.
               </span>
