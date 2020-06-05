@@ -44,6 +44,7 @@ class Navigation extends Component {
       { to: "/About", label: "About" },
       { to: "/Designer", label: "Projects" },
       { to: "/Services", label: "Services" },
+      { to: "/Photos", label: "Photography" },
     ];
     const navlinks = sections.map((section) => {
       return (

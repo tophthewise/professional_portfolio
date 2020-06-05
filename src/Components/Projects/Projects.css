@@ -38,6 +38,13 @@ p {
 .stretch {
   height: 70vh;
 }
+.center {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
 .card {
   background-color: #282c34;
   border-radius: 20%;
