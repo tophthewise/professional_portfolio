@@ -1,15 +1,15 @@
 {
   "main.css": "/static/css/main.d859a2a2.chunk.css",
-  "main.js": "/static/js/main.be498712.chunk.js",
-  "main.js.map": "/static/js/main.be498712.chunk.js.map",
+  "main.js": "/static/js/main.99f7e09b.chunk.js",
+  "main.js.map": "/static/js/main.99f7e09b.chunk.js.map",
   "static/css/1.0c8d6183.chunk.css": "/static/css/1.0c8d6183.chunk.css",
-  "static/js/1.939ae581.chunk.js": "/static/js/1.939ae581.chunk.js",
-  "static/js/1.939ae581.chunk.js.map": "/static/js/1.939ae581.chunk.js.map",
+  "static/js/1.d9179eea.chunk.js": "/static/js/1.d9179eea.chunk.js",
+  "static/js/1.d9179eea.chunk.js.map": "/static/js/1.d9179eea.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/About.css": "/static/media/LABTOPB_.46ad262c.ttf",
   "static/media/Sun.svg": "/static/media/Sun.5232493e.svg",
-  "static/media/all.min.css": "/static/media/fa-solid-900.27603739.svg",
+  "static/media/all.min.css": "/static/media/fa-brands-400.fef43c1f.svg",
   "static/media/CheckinIn.png": "/static/media/CheckinIn.d2b1c03b.png",
   "static/media/EscapeKey3.png": "/static/media/EscapeKey3.cb62a5da.png",
   "static/media/StyllLifeLogo.png": "/static/media/StyllLifeLogo.28da653f.png",
@@ -42,6 +42,6 @@
   "static/css/1.0c8d6183.chunk.css.map": "/static/css/1.0c8d6183.chunk.css.map",
   "static/css/main.d859a2a2.chunk.css.map": "/static/css/main.d859a2a2.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.fd8a2bf2cf43ab121f9395b4b43b08e4.js": "/precache-manifest.fd8a2bf2cf43ab121f9395b4b43b08e4.js",
+  "precache-manifest.ee633c8ad79ea7f16976062c3ff95d46.js": "/precache-manifest.ee633c8ad79ea7f16976062c3ff95d46.js",
   "service-worker.js": "/service-worker.js"
 }
